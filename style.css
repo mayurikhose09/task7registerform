@@ -1,0 +1,146 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(106, 117, 132);
+    margin: auto;
+    min-height: 100vh;
+
+}
+
+.container {
+    width: 50%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    box-shadow: 5px 5px 8px 5px black;
+    border-radius: 10px;
+
+}
+
+.box1 {
+    width: 50%;
+    height: 70vh;
+    background-color: rgb(42, 49, 76);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.box2 {
+    width: 50%;
+    height: 70vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 0px 10px 10px 0px;
+    
+
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-bottom: 25px;
+    
+}
+.para {
+    width: 60%;
+    height: 20px;
+    color: white;
+    font-size: 14px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.image>h5{
+    color: white;
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+h4{
+    color: white;
+    margin-top: 15px;
+    width: 30%;
+    height: 20px;
+    text-align: center;
+}
+h3{
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 28px;
+margin-bottom: 18px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h6{
+    color: gray;
+    margin-bottom: 15px;
+    font-size: 12px;
+    text-align: center;
+}
+.input-box>input{
+    width:15vh;
+    height: 30px;
+    margin-bottom: 15px;
+    padding: 10px;
+    text-align: center;
+ 
+} 
+.input-text>input{
+    width: 80%;
+    height: 30px; 
+    margin-bottom: 15px;
+padding-left: 10px;
+text-align: center;
+}
+.day{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    width: 80%;
+    height: 35px;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    color: white;
+    margin-top: 15px;
+    text-align: center;
+}
